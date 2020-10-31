@@ -1,0 +1,42 @@
+#newsfeed-container {
+    background-color: white;
+    color: rgb(31, 30, 30);
+    border-bottom: 5px solid seagreen;
+}
+#newsfeed-header {
+    text-transform: capitalize;
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin: 0.5rem auto;
+}
+#hero {
+    height: auto;
+    overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#hero::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#hero {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+@media (min-height: 605px) {
+    #hero {
+        height: 100vh;
+    }
+}
+#title {
+    font-size: 3.5rem;
+}
+@media (max-width: 768px) {
+    #title {
+        font-size: 3rem;
+    }
+    #subtitle {
+        font-size: 2rem;
+    }
+}

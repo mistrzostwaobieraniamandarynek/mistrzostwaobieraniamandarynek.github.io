@@ -1,0 +1,48 @@
+.article-container {
+    background-color: white;
+    color: rgb(31, 30, 30);
+    font-family: "Montserrat";
+    padding: 1.5rem 2rem;
+    padding-bottom: .8rem;
+}
+.article-title {
+    font-size: 2rem;
+    display: inline-block;
+    font-weight: 600;
+    margin-top: .8rem;
+    font-family: "Roboto Condensed";
+}
+.article-author {
+    font-size: small;
+    color: rgb(77, 74, 74);
+    text-decoration: underline;
+}
+.article-date {
+    float: right;
+    font-size: 0.8rem;
+    color: rgb(77, 74, 74);
+}
+.article-content {
+    text-align: justify;
+    margin-top: 0.5rem;
+    font-size: .9rem;
+}
+#hero {
+    height: auto;
+    overflow-y: scroll;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+#hero::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#hero {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+@media (min-height: 605px) {
+    #hero {
+        height: 100vh;
+    }
+}

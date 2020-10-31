@@ -1,0 +1,47 @@
+#title {
+    font-size: 3rem;
+}
+#rules-box {
+    background-color: white;
+    color: #333;
+    font-size: 1rem;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: 10px solid transparent;
+    border-image: url("../img/gałązki.png") 100 repeat;
+}
+#rules-title {
+    font-size: 1.8rem;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+}
+#rules-subtitle {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+#rules-header {
+    font-size: 24px;
+    font-family: "Roboto Condensed";
+    font-weight: 600;
+    text-transform: uppercase;
+}
+#rules-list {
+    text-align: justify;
+    padding-left: 1.3rem;
+}
+#rules-list li {
+    padding-bottom: 0.8rem;
+}
+@media (min-width: 1790px) {
+    #hero {
+        height: 100vh;
+    }
+}
+@media (max-width: 768px) {
+    #rules-box {
+        border-radius: 0;
+    }
+}

@@ -1,0 +1,57 @@
+#contact-icon-container {
+    color: white;
+    text-transform: uppercase;
+}
+#contact-icon-container i {
+    font-size: 4rem;
+}
+#contact-icon-container p {
+    font-size: 1rem;
+    font-family: "Roboto Condensed";
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 0.5rem;
+}
+.contact-icon-item {
+    border-right: 1px solid white;
+}
+#mail-envelope {
+    font-size: 4rem;
+    color: white;
+}
+#mail-address {
+    font-size: 1rem;
+    color: rgb(31, 30, 30);
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+#mail-address a {
+    color: rgb(31, 30, 30);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0.4rem 0.8rem;
+    border-radius: 7px;
+    /*border-left: 8px solid seagreen; */
+}
+#mail-address a:hover {
+    color: #ff8800;
+    text-decoration: underline;
+}
+@media (min-height: 769px) {
+    #hero {
+        height: 100vh;
+    }
+}
+#subtitle {
+    font-size: 2rem;
+}
+@media (min-width: 769px) {
+    #contact-icon-container p {
+        font-size: 1.5rem;
+    }
+    #contact-icon-container i {
+        font-size: 6rem;
+    }
+    #mail-address {
+        font-size: 1.5rem;
+    }
+}
