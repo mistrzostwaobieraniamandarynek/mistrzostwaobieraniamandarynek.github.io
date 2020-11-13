@@ -14,7 +14,7 @@ def get_last_post_from_fb(URL):
 def format_fb_post_data(last_post):
     date = last_post['created_time'].split('T')[0].replace('-','.').split('.')
     date = date[2] + '.' + date[1] + '.' + date[0]
-    message = last_post['message'].replace('\n', '<br/>')
+    message = last_post['message'].replace('\n', ' ')
     id = last_post['id']
     post_url = last_post['attachments']['data'][0]['url']
     return id, message, date, post_url
