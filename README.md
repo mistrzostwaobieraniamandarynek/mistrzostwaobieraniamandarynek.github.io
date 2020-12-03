@@ -1,6 +1,6 @@
 # The Official MOM website
 
-This website was created and is currently mainained by Jakub Ćwikowski aka. [Jerry-BloodBerry](https://github.com/Jerry-BloodBerry).
+This website was created and is currently maintained by Jakub Ćwikowski aka. [Jerry-BloodBerry](https://github.com/Jerry-BloodBerry).
 It is a set of static webpages made for MOM to advertise the MOM event.
 
 ## Facebook scraper
