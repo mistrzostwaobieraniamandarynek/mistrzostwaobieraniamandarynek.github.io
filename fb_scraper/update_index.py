@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import os
-import subprocess
+import webbrowser
 from dotenv import load_dotenv
 from bs4 import BeautifulSoup, Comment
 from fb_api import get_last_post_from_fb
@@ -89,7 +89,7 @@ else:
     print('----------------------------------------')
     print("Showing results in firefox...")
     print('----------------------------------------')
-    subprocess.call("firefox -new-tab file:///{}".format(htmlFilePath), shell=True)
+    webbrowser.open_new("file:///{}".format(htmlFilePath))
     print('DONE!')
     print('----------------------------------------')
     input("Press enter to exit:>")
