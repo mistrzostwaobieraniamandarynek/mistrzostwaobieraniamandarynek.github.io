@@ -37,8 +37,13 @@ transition:         transform .6s ease-in-out;
 #other-patrons-table table tbody, #other-patrons-table table tr, #other-patrons-table table tr td {
     display: block;
 }
-@media(max-width: 977px) {
+@media(max-width: 1076px) {
     #media-patrons-col {
         border-right: none;
+    }
+}
+@media(max-width: 977px) {
+    #title, #subtitle {
+        font-size: 2.5rem;
     }
 }
