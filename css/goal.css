@@ -1,8 +1,4 @@
-.article-content p {
-    text-indent: 3rem;
-}
 p.text-not-indented {
-    text-indent: 0;
     margin-left: 2.5rem;
 }
 .ul-2lvl {
@@ -10,12 +6,6 @@ p.text-not-indented {
 }
 .ul-2lvl li {
     margin-bottom: .2rem;
-}
-p.text-center {
-    text-indent: 0;
-}
-#sources-p {
-    text-indent: 0;
 }
 .article-content p a {
     word-break: break-all;
