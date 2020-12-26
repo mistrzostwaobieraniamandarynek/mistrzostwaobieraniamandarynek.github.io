@@ -96,7 +96,7 @@ body {
 #super-article-container .row:last-child {
     margin-bottom: 1rem;
 }
-@media(min-width: 1316px) {
+@media(min-width: 1337px) {
     #navcol1 > ul li a {
         font-size: 1.2rem;
     }
