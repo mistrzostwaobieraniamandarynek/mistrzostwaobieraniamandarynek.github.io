@@ -1,0 +1,12 @@
+p.text-not-indented {
+    margin-left: 2.5rem;
+}
+.ul-2lvl {
+    list-style-type: none;
+}
+.ul-2lvl li {
+    margin-bottom: .2rem;
+}
+.article-content p a {
+    word-break: break-all;
+}

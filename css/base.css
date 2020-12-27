@@ -33,7 +33,7 @@ body {
     padding-right: 1rem;
 }
 #navcol1 > ul li a {
-    font-size: 1.4rem;
+    font-size: 1rem;
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
     color: white;
@@ -95,4 +95,14 @@ body {
 
 #super-article-container .row:last-child {
     margin-bottom: 1rem;
+}
+@media(min-width: 1337px) {
+    #navcol1 > ul li a {
+        font-size: 1.2rem;
+    }
+}
+@media(min-width: 1530px) {
+    #navcol1 > ul li a {
+        font-size: 1.4rem;
+    }
 }
