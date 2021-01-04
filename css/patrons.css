@@ -37,6 +37,12 @@ transition:         transform .6s ease-in-out;
 #other-patrons-table table tbody, #other-patrons-table table tr, #other-patrons-table table tr td {
     display: block;
 }
+#crowdfunding-img-container {
+    text-align: center;
+}
+#crowdfunding-img-container img {
+    width: 400px;
+}
 @media(max-width: 1076px) {
     #media-patrons-col {
         border-right: none;
