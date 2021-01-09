@@ -38,7 +38,7 @@ p.diy-description {
     margin-bottom: 1rem;
 }
 #diy-col {
-    max-width: 1200px;
+    max-width: 1250px;
 }
 @media(max-width: 975px) {
     .diy-content-container {
