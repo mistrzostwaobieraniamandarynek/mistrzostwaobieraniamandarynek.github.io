@@ -95,6 +95,9 @@ body {
 .icon-container a:last-child {
     padding-right: 0;
 }
+#author-mail-link {
+    color: #ff6600;    
+}
 #super-article-container .row:last-child {
     margin-bottom: 1rem;
 }
