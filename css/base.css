@@ -92,7 +92,9 @@ body {
 .icon-container a:hover {
     color: #ff6600;
 }
-
+.icon-container a:last-child {
+    padding-right: 0;
+}
 #super-article-container .row:last-child {
     margin-bottom: 1rem;
 }
