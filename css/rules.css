@@ -35,6 +35,9 @@
 #rules-list li {
     padding-bottom: 0.8rem;
 }
+#rules-link-p a {
+    color: #ff6600;
+}
 @media (min-width: 1790px) {
     #hero {
         height: 100vh;
