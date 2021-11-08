@@ -1,17 +1,24 @@
-#newsfeed-container, #schedule-container {
+#newsfeed-container, #edition-container {
     background-color: white;
     color: rgb(31, 30, 30);
     border-bottom: 5px solid seagreen;
 }
-#newsfeed-header, #schedule-header {
+#newsfeed-header, .edition-title {
     text-transform: capitalize;
     font-family: "Montserrat";
     font-size: 1.5rem;
     font-weight: 400;
     margin: 0.5rem auto;
 }
-#schedule-header a {
+.edition-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: 5px solid seagreen;
+    text-align: center;
+}
+.edition-title {
     color: #ff6600;
+    font-weight: 600;
 }
 #hero {
     height: auto;
