@@ -1,0 +1,21 @@
+.card-deck .card {
+    background-color: transparent;
+    border: none;
+    max-width: 20rem;
+    margin: 10px auto;
+}
+.card-img-overlay {
+    color: #000;
+}
+.card-deck .card .card-title {
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Almendra', serif;
+}
+.card-deck .card .card-text {
+    padding: 18px 45px;
+    text-align: center;
+    line-height: 22px;
+    font-size: 19px;
+    font-family: 'Almendra', serif;
+}
