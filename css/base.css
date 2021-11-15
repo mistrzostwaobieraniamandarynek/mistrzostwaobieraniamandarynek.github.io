@@ -27,12 +27,19 @@ body {
 .custom-toggler.navbar-toggler {
     border-color: rgb(255, 255, 255);
 }
-
+#navcol1 {
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+}
+#navcol1 > ul {
+    justify-content: center;
+    flex-wrap: wrap;
+}
 #navcol1 > ul li {
     padding-right: 1rem;
 }
 #navcol1 > ul li a {
-    font-size: 1rem;
+    font-size: 1.2rem;
     text-transform: uppercase;
     font-family: "Roboto Condensed", sans-serif;
     color: white;
@@ -102,7 +109,7 @@ body {
 }
 @media (min-width: 1337px) {
     #navcol1 > ul li a {
-        font-size: 1.2rem;
+        font-size: 1.3rem;
     }
 }
 @media (min-width: 1530px) {
