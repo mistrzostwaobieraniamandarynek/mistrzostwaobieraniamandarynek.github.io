@@ -1,3 +1,7 @@
+.card-deck {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
 .card-deck .card {
     background-color: transparent;
     border: none;
@@ -10,12 +14,18 @@
 .card-deck .card .card-title {
     font-weight: 700;
     letter-spacing: 2px;
-    font-family: 'Almendra', serif;
+    font-family: "Almendra", serif;
 }
 .card-deck .card .card-text {
     padding: 18px 45px;
     text-align: center;
     line-height: 22px;
     font-size: 19px;
-    font-family: 'Almendra', serif;
+    font-family: "Almendra", serif;
+}
+
+@media (min-width: 576px) {
+    .card-deck .card {
+        flex: unset;
+    }
 }
