@@ -35,6 +35,14 @@
     margin-top: 0.5rem;
     font-size: .9rem;
 }
+.article-content-img {
+    max-height: 500px;
+    max-width: 100%;
+    text-align: center;
+    display: block;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+}
 #hero {
     height: 100vh;
     overflow-y: scroll;
