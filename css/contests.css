@@ -24,6 +24,13 @@
     font-family: "Almendra", serif;
 }
 
+.contest-finished {
+    font-size: 24px;
+    margin-top: 140px;
+    color: rgb(83, 14, 14);
+    font-family: "Almendra", serif;
+}
+
 @media (min-width: 576px) {
     .card-deck .card {
         flex: unset;
