@@ -35,6 +35,15 @@
     margin-top: 0.5rem;
     font-size: .9rem;
 }
+.article-sources {
+    padding: 0 2rem;
+    text-align: justify;
+    margin-top: 1rem;
+    font-size: .9rem;
+}
+.sources-title {
+    font-weight: 600;
+}
 .article-content-img {
     max-height: 500px;
     max-width: 100%;
