@@ -31,9 +31,8 @@
     text-decoration: none;
 }
 .patrons-container img {
-width: 150px;
-height: 150px;
-border-radius: 50%;
+max-width: 100%;
+max-height: 150px;
 margin: 1rem 2rem;
 }
 #media-patrons-col {
