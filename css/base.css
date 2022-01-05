@@ -142,7 +142,9 @@ body {
     color: #fff;
     z-index: 200;
     border: none;
-    padding: 0;
+    font-size: 1.8em;
+    line-height: 1em;
+    padding: 0 5px;
     border-radius: 100%;
 }
 .page-banner-image {
